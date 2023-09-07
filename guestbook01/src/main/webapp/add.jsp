@@ -10,7 +10,6 @@
 	String message = request.getParameter("message");
 	
 	java.util.Date utilDate = new java.util.Date();
-	long currentMilliseconds = utilDate.getTime();
 	Date date = new Date(utilDate.getTime());
 	
 	GuestbookVo vo = new GuestbookVo();

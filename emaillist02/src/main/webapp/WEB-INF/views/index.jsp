@@ -5,7 +5,7 @@
 	pageEncoding="UTF-8"%>
 	
 <%
-	List<EmaillistVo> list = new EmaillistDao().findAll();
+	List<EmaillistVo> list = (List<EmaillistVo>) request.getAttribute("list");
 %>
 
 <html>
@@ -38,7 +38,7 @@
 		}
 	%>
 	<p>
-		<a href="/emaillist01/form.jsp">추가메일 등록</a>
+		<a href="/emaillist02/el?a=form">추가메일 등록</a>
 	</p>
 	<br>
 </body>
