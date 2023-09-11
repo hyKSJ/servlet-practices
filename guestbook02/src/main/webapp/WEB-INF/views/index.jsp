@@ -5,7 +5,6 @@
     pageEncoding="UTF-8"%>
     
 <%
-	
 	List<GuestbookVo> list = (List<GuestbookVo>) request.getAttribute("list");
 %>
 

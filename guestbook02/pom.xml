@@ -7,8 +7,8 @@
   </parent>
   <artifactId>guestbook02</artifactId>
   <packaging>war</packaging>
-  
-    	<properties>
+
+	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.build.outputEncoding>UTF-8</project.build.outputEncoding>
 		<maven.compiler.source>17</maven.compiler.source>
